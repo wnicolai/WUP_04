@@ -65,4 +65,4 @@ according to our results, the P value is .000236 which, because its a small numb
 
 Although the data shows that the Graduate and Junior College have similar scores, we see a major difference in the High School and No High school score. Given these results, there is no guaranteed correlaton between educaiton levels and the wordsum scores.
 
-
+Therefore we must reject the null hypothesis.
