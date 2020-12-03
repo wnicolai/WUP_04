@@ -39,7 +39,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ```{r}
 boxplot(WORDSUM~DEGREE,data=mydata)
 ```
-According to this data Those with lower degrees had a smaller score than those with with a higher degree. 
+According to this data Those with lower degrees had a smaller score than those with a higher degree.  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
