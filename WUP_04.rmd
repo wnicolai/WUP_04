@@ -55,6 +55,14 @@ model1 <- aov(WORDSUM~DEGREE,data=mydata)
 summary.aov(model1)
 ```
 
+```{r}
+plot(TukeyHSD(model1))
+```
+according to our results, the P value is .000236 which, because its a small number, means our hypothesis is not statistically proven. 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Although the data shows that the Graduate and Junior College have similar scores, we see a major difference in the High School and No High school score. Given these results, there is no guaranteed correlaton between educaiton levels and the wordsum scores.
+
+
